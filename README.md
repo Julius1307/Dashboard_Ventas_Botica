@@ -1,37 +1,33 @@
-📈 Dashboard Dinámico de Gestión de Ventas | Botica de la Cruz
+# 📊 Proyecto de Migración: Dashboard de Gestión de Ventas (Excel/VBA a Power BI)
 
-Este proyecto demuestra la capacidad de transformar datos brutos de ventas en un Dashboard interactivo y automatizado, utilizando Tablas Dinámicas y código VBA en Microsoft Excel.
-
----
-
-🎯 Objetivo del Proyecto
-
-Desarrollar un sistema de análisis de datos que permita monitorear el desempeño comercial y de inventario de una pequeña farmacia en tiempo real.
-
-# Habilidades Demostradas
-
-* Análisis de Datos: Creación de Tablas Dinámicas (TD) para KPIs, Slicers y gráficos de tendencia.
-* Automatización (VBA): Formulario de registro de datos y macros para la actualización y exportación de reportes.
-
-# KPIs y Visualizaciones Clave
-
-El Dashboard monitorea métricas cruciales, actualizándose al seleccionar un periodo de tiempo:
-
-* KPIs: Ventas Totales (Soles), Cantidad Vendida, Venta Promedio, Producto de Mayor Ingreso.
-* Métricas Estratégicas: Control de Stock Crítico (productos < 10 unidades).
-* Gráficos: Top 10 Productos con Mayores Ingresos y Tendencia de Ventas Mensual.
+Este proyecto documenta la evolución de un sistema de gestión de ventas e inventario, desde una solución automatizada en Excel y VBA hasta un Dashboard interactivo y escalable en Power BI.
 
 ---
 
-💻 Uso y Funcionalidad
+## 🎯 Objetivo del Proyecto
 
-1. Automatización del Reporte
+Demostrar la capacidad de estructurar y analizar datos comerciales, migrando la lógica de negocio y la automatización (VBA) a un entorno moderno de Business Intelligence (Power BI), manteniendo la trazabilidad del análisis de ventas e inventario.
 
-El Dashboard incluye dos macros principales:
+## 🔑 Tecnologías y Habilidades Demostradas
 
-* ACTUALIZAR DASHBOARD: Refresca todas las Tablas Dinámicas y asegura que los KPIs reflejen los datos recién ingresados.
-* EXPORTAR PDF: Exporta el Dashboard completo a un reporte PDF de una sola página, manteniendo el diseño (formato 1x1).
+* **Microsoft Power BI:** Modelado de datos, creación de KPIs (Tarjetas), Segmentadores de datos y visualizaciones clave.
+* **DAX (Data Analysis Expressions):** Creación de medidas personalizadas para cálculos complejos (Ej. `Ventas Totales`, `Venta Promedio`, `Stock Crítico`).
+* **Modelado de Datos:** Establecimiento de relaciones (`Muchos a Uno`) entre la tabla de Ventas y la tabla de Inventario.
+* **Microsoft Excel / VBA:** Creación de un formulario de registro de datos, automatización de reportes a PDF y gestión inicial de la base de datos de origen.
 
-⚠️ Requisito: Habilitar Macros
+## 📈 Indicadores Clave (KPIs) Analizados
 
-Para que los formularios y botones funcionen, es necesario ‘Habilitar las macros’ en Excel (agregando la carpeta del archivo a las Ubicaciones de Confianza).
+El Dashboard monitorea los siguientes indicadores críticos del negocio de la botica:
+
+* **Ventas Totales (S/):** Rendimiento financiero global.
+* **Cantidad de Productos Vendidos:** Volumen de negocio.
+* **Venta Promedio (S/):** Eficiencia en la venta por transacción.
+* **Productos con Stock Crítico:** Gestión de inventario para evitar quiebres de stock.
+* **Tendencia Mensual:** Análisis de la evolución de las ventas a lo largo del tiempo.
+
+## 📂 Estructura del Repositorio
+
+| Carpeta | Contenido Clave | Habilidades |
+| :--- | :--- | :--- |
+| `Excel_VBA` | Archivo XLSM y Captura PNG | Demuestra **VBA** y automatización de procesos. |
+| `PowerBI_Dashboard` | Archivo PBIX | Demuestra **Modelado de Datos** y **DAX** en BI. |
